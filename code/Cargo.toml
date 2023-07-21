@@ -1,0 +1,24 @@
+[package]
+name = "code"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "count-lines", # Count the lines in a file
+    "count-lines-buffer", # Count the lines in a file, using buffered I/O
+    "count-lines-mmap", # Count the lines in a file, using mmap
+    "axum-filestream", # Streaming files from the Axum web service
+    "axum-file-adapt", # Adapting a stream
+    "thumbnailer", # Test program for use in the command examples
+    "call_thumbnailer", # Example of calling a program
+    "echo", # A simple program that reads stdin and echoes back to stdout
+    "call_echo", # Calls echo and sends it input
+    "call_thumbnailer_async", # Calls the thumbnail program asynchronously
+    "axum_sqlx", # A simple Axum+SQLX web service
+    "simple_unit_tests", # Basic unit testing
+    "tokio_tracing", # Tokio Tracing
+    "axum_tracing", # Tokio Tracing with an Axum Layer
+]
