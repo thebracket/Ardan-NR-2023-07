@@ -1,4 +1,5 @@
-code/target
+target
 code/bigfile.txt
 code/call_thumbnailer/thumbnail.jpg
 .vscode/
+deny.toml

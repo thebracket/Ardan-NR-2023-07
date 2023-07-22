@@ -1,5 +1,5 @@
 use std::{io::{BufRead, BufReader}, fs::File};
-use memmap::MmapOptions;
+use memmap2::MmapOptions;
 
 fn main() {
     let now = std::time::Instant::now();

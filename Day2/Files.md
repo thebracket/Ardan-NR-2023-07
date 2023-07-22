@@ -43,13 +43,13 @@ Using the buffer presents a trade-off. You only use a tiny amount of memory, but
 
 ### Let's go a little crazy
 
-`mmap` system calls provide a fast way to treat a file as an area of memory, with loading handled by the operating system's really efficient page loading. Let's use `memmap` to count the lines in War and Peace.
+`mmap` system calls provide a fast way to treat a file as an area of memory, with loading handled by the operating system's really efficient page loading. Let's use `memmap2` to count the lines in War and Peace.
 
-We'll add the `mmap` crate with `cargo add memmap`.
+We'll add the `mmap` crate with `cargo add memmap2`.
 
 ```rust
 use std::{io::{BufRead, BufReader}, fs::File};
-use memmap::MmapOptions;
+use memmap2::MmapOptions;
 
 fn main() {
     let now = std::time::Instant::now();
