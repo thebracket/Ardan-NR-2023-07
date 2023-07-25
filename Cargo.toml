@@ -29,6 +29,8 @@ members = [
     "code/bytes", # Self-scaling bytes/mb/gb/etc.
     "code/builder", # A builder pattern example
     "code/builder_errors", # A builder pattern with error handling
+    "code/child_process", # Example for child process management
+    "code/child_process_wait_or_kill", # Example for running a process and gettings its output or killing after a timeout
 ]
 
 # For the build profiles section

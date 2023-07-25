@@ -31,6 +31,7 @@ Presented by [Ardan Labs](https://www.ardanlabs.com/)
     * [High-Performance File Streaming and Processing](./Day2/Files.md)
     * [Calling External Programs](./Day2/ExternalPrograms.md)
 * Day 3
+    * [As Requested - Killing Child Processes](./Day3/ChildProcess.md)
     * [Databases](./Day3/Databases.md)
     * [Dependency Injection and Shared State in Axum Services](./Day3/SharedState.md)
     * [Error Handling](./Day3/ErrorHandling.md)
