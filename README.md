@@ -39,6 +39,8 @@ Presented by [Ardan Labs](https://www.ardanlabs.com/)
     * [Tracing](./Day3/Tracing.md)
     * [Benchmarking](./Day3/Benchmark.md)
 * Day 4
+    * [Unit Testing 2 - Mocking/Property Testing](./Day3/UnitTesting.md)
+    * QA
     * **Best Practices: Tooling**
         * [Formatting](./Day4/Formatting.md)
         * [Clippy (the linter)](./Day4/Clippy.md)
@@ -64,5 +66,4 @@ Presented by [Ardan Labs](https://www.ardanlabs.com/)
         * [YAGNI: You Aint Gonna Need It](./Day4/YAGNI.md)
         * [Domain Boundaries and Network Calls](./Day4/DomainBoundaries.md)
         * [Taming Compile Times](./Day4/CompileTimes.md)
-    * QA
     * Wrap-Up
